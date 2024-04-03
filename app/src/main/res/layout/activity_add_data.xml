@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:padding="20dp"
+    android:layout_height="match_parent"
+    tools:context=".AddDataActivity">
+    <EditText
+        android:layout_width="match_parent"
+        android:id="@+id/addUserId_editText"
+        android:hint="UserID"
+        android:layout_height="wrap_content"/>
+    <EditText
+        android:layout_width="match_parent"
+        android:id="@+id/addUserName_editText"
+        android:hint="User Name"
+        android:inputType="textPersonName"
+        android:layout_height="wrap_content"/>
+    <EditText
+        android:layout_width="match_parent"
+        android:id="@+id/addUserContact_editText"
+        android:hint="Contact"
+        android:inputType="phone"
+        android:layout_height="wrap_content"/>
+    <EditText
+        android:layout_width="match_parent"
+        android:id="@+id/addEmail_editText"
+        android:hint="User Email"
+        android:inputType="textEmailAddress"
+        android:layout_height="wrap_content"/>
+    <androidx.appcompat.widget.AppCompatButton
+        android:layout_width="match_parent"
+        android:hint="Submit"
+        android:id="@+id/submit_button"
+        android:layout_height="wrap_content"/>
+
+
+</LinearLayout>

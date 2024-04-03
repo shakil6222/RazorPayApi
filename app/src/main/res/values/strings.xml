@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">RazorPayApi</string>
+    <string name="update" />
+    <string name="delete">Delete</string>
+</resources>

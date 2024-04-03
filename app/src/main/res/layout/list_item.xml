@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:layout_height="match_parent">
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:orientation="vertical"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:textSize="15sp"
+            android:text="userId"
+            android:textColor="#C2185B"
+            android:id="@+id/userId_textItem"
+            android:layout_marginTop="20dp"
+            android:layout_marginStart="10dp"
+            android:layout_height="wrap_content"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:text="Name"
+            android:textColor="#C2185B"
+            android:id="@+id/name_textItem"
+            android:layout_marginTop="50dp"
+            android:textSize="15sp"
+            android:layout_marginStart="10dp"
+            android:layout_height="wrap_content"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:textSize="15sp"
+            android:textColor="#C2185B"
+            android:layout_marginTop="70dp"
+            android:id="@+id/email_textItem"
+            android:layout_marginStart="10dp"
+            android:layout_height="wrap_content"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/contact_textItem"
+            android:textColor="#C2185B"
+            android:layout_marginStart="10dp"
+            android:layout_marginTop="100dp"
+            android:textSize="15sp" />
+<!--        <TextView-->
+<!--            android:layout_width="wrap_content"-->
+<!--            android:textSize="15sp"-->
+<!--            android:layout_marginTop="60dp"-->
+<!--            android:layout_marginStart="50dp"-->
+<!--            android:layout_height="wrap_content"/>-->
+<!--        <TextView-->
+<!--            android:layout_width="wrap_content"-->
+<!--            android:text="hjr"-->
+<!--            android:textSize="15sp"-->
+<!--            android:layout_marginTop="60dp"-->
+<!--            android:layout_marginStart="50dp"-->
+<!--            android:layout_height="wrap_content"/>-->
+        <Button
+            android:layout_width="wrap_content"
+            android:text="Update"
+            android:layout_marginStart="220dp"
+            android:id="@+id/update_button"
+            android:layout_marginTop="50dp"
+            android:layout_height="wrap_content"/>
+        <Button
+            android:layout_width="wrap_content"
+            android:id="@+id/delete_button"
+
+            android:text="@string/delete"
+            android:layout_marginStart="220dp"
+            android:layout_height="wrap_content"/>
+
+    </RelativeLayout>
+
+</RelativeLayout>

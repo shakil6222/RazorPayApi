@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:padding="30dp"
+    android:gravity="center"
+    android:layout_height="match_parent"
+    tools:context=".CustemerUpdateActivity">
+    <EditText
+        android:layout_width="match_parent"
+        android:id="@+id/updateUserName_editText"
+        android:hint="User Name"
+        android:inputType="textPersonName"
+        android:layout_height="wrap_content"/>
+    <EditText
+        android:layout_width="match_parent"
+        android:id="@+id/updateUserContact_editText"
+        android:hint="Contact"
+        android:inputType="phone"
+        android:layout_height="wrap_content"/>
+    <EditText
+        android:layout_width="match_parent"
+        android:id="@+id/updateEmail_editText"
+        android:hint="User Email"
+        android:inputType="textEmailAddress"
+        android:layout_height="wrap_content"/>
+    <androidx.appcompat.widget.AppCompatButton
+        android:layout_width="match_parent"
+        android:text="Update"
+        android:layout_marginTop="20dp"
+        android:textColor="@color/white"
+        android:textStyle="bold"
+        android:background="#0C3C0F"
+        android:id="@+id/updateSubmit_button"
+        android:layout_height="wrap_content"/>
+
+</LinearLayout>
